@@ -1,0 +1,9 @@
+alter session set "_oracle_script"=true;
+create user DMS identified by DMS;
+GRANT ALL PRIVILEGES TO DMS;
+
+CREATE TABLESPACE DMS 
+   DATAFILE 'DMS_data.dbf' 
+   SIZE 1000m;
+   
+ALTER USER DMS DEFAULT TABLESPACE DMS;

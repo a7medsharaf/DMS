@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "hidDOJJvceAcBDJ3LYxjudoyRty8b3dYI3WrTBn2+PY=",
+  "Source": "DMS",
+  "BasePath": "_content/DMS",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DMS\\wwwroot",
+      "Source": "DMS",
+      "ContentRoot": "D:\\DMS\\DMS\\DMS\\wwwroot\\",
+      "BasePath": "_content/DMS",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
